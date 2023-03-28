@@ -1,0 +1,10 @@
+package main
+
+import "fmt"
+
+func main() {
+	var lista = [5]string{"a", "b", "c", "d", "e"}
+	for i := 0; i < len(lista); i++ {
+		fmt.Println(lista[i])
+	}
+}
